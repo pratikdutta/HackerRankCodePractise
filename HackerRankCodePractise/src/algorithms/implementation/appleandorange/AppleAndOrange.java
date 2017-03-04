@@ -25,16 +25,16 @@ public class AppleAndOrange {
 		int oraCounter = 0;
 
 		for (int app = 0; app < m; app++) {
-			if(apple[app]+a>=s && (apple[app]+a)<=t){
+			if (apple[app] + a >= s && (apple[app] + a) <= t) {
 				appCounter++;
 			}
 		}
 
 		for (int ora = 0; ora < n; ora++) {
-			if(orange[ora]+b>=s && orange[ora]+b<=t){
-					oraCounter++;
-				}
+			if (orange[ora] + b >= s && orange[ora] + b <= t) {
+				oraCounter++;
 			}
+		}
 		System.out.println(appCounter);
 		System.out.println(oraCounter);
 	}

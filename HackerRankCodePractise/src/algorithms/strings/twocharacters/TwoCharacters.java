@@ -51,7 +51,8 @@ public class TwoCharacters {
 			if(chars[h]!=null)
 				buff.append(chars[h]);
 		}
-		String s = permute(buff.toString());
+//		String s = permute(buff.toString());
+		String s = "";
 		System.out.println(s);
 		Character[] nextVal = new Character[s.length()];
 		for(int c = 0; c<s.length(); c++){

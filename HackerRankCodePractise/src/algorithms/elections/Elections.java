@@ -1,4 +1,4 @@
-package algorithms.newlogic;
+package algorithms.elections;
 
 import java.util.Map;
 import java.util.TreeMap;

@@ -29,16 +29,10 @@ public class BirthdayChocolate {
 				int iterations = 0;
 				for (int k = p; k <= i; k++) {
 					sum = sum + s[k];
-					/*System.out.println("s["+k+"]: "+s[k]);
-					System.out.println("sum: "+sum);*/
 					iterations++;
 				}
 				if (sum == d && (iterations == m)) {
 					counter++;
-					/*System.out.println("=======================");
-					System.out.println("i: "+i);
-					System.out.println("p: "+p);
-					System.out.println("=======================");*/
 				}
 			}
 		}
